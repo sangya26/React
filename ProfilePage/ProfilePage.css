@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: white;
+}
+
+.top_div {
+  border-bottom: 1px solid navy;
+  margin-top: 150px;
+  text-align: left;
+  padding: 10px;
+}
+.firstCol {
+  padding: 50px;
+  border-right: 1px solid black;
+  margin: 0px;
+  height: 90vh;
+  width: 100%;
+}
+.secondCol {
+  padding: 50px;
+  height: 90vh;
+  width: 100%;
+  background: whitesmoke;
+}
+.workSpace {
+  margin: 5px;
+  background: lightgray;
+}
+.footer {
+  border: 1px solid black;
+  text-align: center;
+  padding: 50px;
+  height: 30vh;
+  width: 98.5vw;
+  margin-bottom: 0px;
+}
+.row {
+  width: 100%;
+}
+#btn {
+  background-color: rgb(235, 20, 199);
+  padding: 15px;
+  color: white;
+  justify-content: center;
+  border-radius: 15px;
+  width: 90%;
+  cursor: pointer;
+}
+.button {
+  padding: 15px;
+}
+.Head {
+  background-color: rgb(248, 246, 246);
+  margin: none;
+  margin-bottom: none;
+  width: 100%;
+  float: right;
+  height: 35px;
+  margin-top: -10px;
+  border-bottom: 1px solid lightgrey;
+}
+.acc {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  margin: 10px;
+  float: right;
+}
+Form {
+  width: 40%;
+}
+.Navbar {
+  margin: none;
+}
+.fa-user {
+  color: grey;
+}
+
+.fa-heart {
+  color: red;
+}
+.fa-cart-plus {
+  color: grey;
+}
+.ham {
+  margin: 0;
+  font-size: 30px;
+  display: none;
+  width: 26px;
+  float: inline-end;
+  padding-left: 25px;
+  color: magenta;
+}
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .workSpace {
+    width: fit-content;
+    margin: 0px;
+  }
+  .top_div {
+    margin-top: 0px;
+    border-bottom: none;
+  }
+  .firstCol {
+    border-right: none;
+    padding: 0px;
+  }
+  .secondCol {
+    position: relative;
+  }
+  .ham {
+    display: block;
+    cursor: pointer;
+    margin-top: 0px;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    overflow: scroll;
+  }
+  .menu .button {
+    display: block;
+    border-bottom: 1px solid #eaeaeb;
+    margin: 0;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+  #btn {
+    padding: 9px;
+    width: 80%;
+    cursor: pointer;
+  }
+}

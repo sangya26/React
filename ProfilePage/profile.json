@@ -1,0 +1,14 @@
+{
+    "user": [
+        {
+            "FullName" : "Avishek Kumar",
+            "MobileNumber" : 21354654897,
+            "EmailID" : "bc@gmail.com",
+            "Gender" : "Male",
+            "DateofBirth" : "25/03/1880" ,
+            "Location" :  "Earth",
+            "AlternateMobileNumber" :  8964532348,
+            "HintName" : "Avi"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "coupons" : [
+        {
+            "id" : 1,
+            "off" : 70,
+            "amount" : 1000,
+            "code" : "WFEXTRA150",
+            "date" : "MAY 31 2021 ",
+            "time" : "11:59:00 P.M"
+        },
+        {
+            "id" : 1,
+            "off" : 70,
+            "amount" : 1000,
+            "code" : "WFEXTRA150",
+            "date" : "MAY 31 2021 ",
+            "time" : "11:59:00 P.M"
+        },
+        {
+            "id" : 1,
+            "off" : 70,
+            "amount" : 1000,
+            "code" : "WFEXTRA150",
+            "date" : "MAY 31 2021 ",
+            "time" : "11:59:00 P.M"
+        }
+    ]
+}

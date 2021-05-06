@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+.outer_div {
+  padding: 10px;
+  margin-top: 8%;
+  background-color: whitesmoke;
+  border-radius: 70px;
+  height: 70vh;
+}
+.inner-div {
+  width: 100%;
+}
+.Heading {
+  padding: 15px;
+}
+.Logo_heading {
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+.fa-chevron-circle-left {
+  color: green;
+  top: 0px;
+}
+input {
+  width: 100%;
+  border-radius: 20px;
+  margin-left: -70px;
+  left: 13%;
+  position: relative;
+  line-height: 35px;
+  background-color: lightgray;
+  color: black;
+  border: blueviolet;
+}
+input[type="text"]::placeholder {
+  color: lightseagreen;
+}
+input[type="text"]:hover {
+  outline: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+#req {
+  float: right;
+  margin-right: 0px;
+  padding: 0px;
+}
+#btn {
+  background-color: rgb(235, 20, 199);
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  border-radius: 20px;
+  width: 90%;
+}
+.Border {
+  border-bottom: 1px solid magenta;
+  padding: 0px;
+}
+#btnBack {
+  border: none;
+  background: transparent;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /*Landscape*/
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /*Mobiles*/
+  #head {
+    font-size: 20px;
+  }
+}

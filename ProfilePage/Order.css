@@ -1,0 +1,167 @@
+.outer {
+  height: 80vh;
+  overflow: scroll;
+}
+.inner {
+  margin-left: 5px;
+  padding: 0;
+}
+h2 {
+  border-bottom: 1px solid black;
+}
+.Card {
+  margin: 10px;
+}
+.header,
+.header2 {
+  margin-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  text-align: left;
+  margin: 0;
+  top: 0;
+  color: red;
+  text-decoration: underline;
+}
+.status {
+  margin-top: 0px;
+  font-size: 25px;
+}
+.Body {
+  height: 150px;
+  width: 60vw;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background: lightgray;
+  margin-left: 5px;
+}
+.fa-truck {
+  color: green;
+}
+.fa-square {
+  color: darkcyan;
+}
+.middle {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.bold {
+  font-weight: bold;
+}
+.img {
+  width: 150px;
+  height: 100px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 0px;
+}
+.fa-chevron-circle-right {
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+}
+.refund {
+  color: darkcyan;
+  margin-left: 3%;
+}
+.request {
+  color: gray;
+  margin-left: 3%;
+  margin-top: 0px;
+}
+.req {
+  color: gray;
+  margin-left: 4%;
+  margin-top: 0px;
+}
+.btnD {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 12px 40px 12px 40px;
+  text-decoration: none;
+}
+.b1 {
+  margin-right: 300px;
+}
+.b2 {
+  margin-left: 300px;
+}
+.icons {
+  font-size: 2vw;
+  color: darkcyan;
+}
+.icons_ {
+  font-size: 2vw;
+  color: green;
+}
+@media only screen and (max-width: 600px) {
+  .outer {
+    width: fit-content;
+  }
+  .Card {
+    width: 80vw;
+  }
+  .header {
+    width: 80vw;
+    height: 30vh;
+  }
+  .header2 {
+    width: 80vw;
+    height: 20vh;
+  }
+  .Body {
+    height: 30vh;
+  }
+  .img {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 50px;
+  }
+  .middle {
+    margin: 0px;
+    font-size: 5vw;
+  }
+  .fa-chevron-circle-right {
+    margin-top: 250%;
+    font-size: 8vw;
+  }
+  .btnD {
+    font-size: 10px;
+    padding: 12px;
+  }
+  .b1 {
+    margin: 20px;
+  }
+  .b2 {
+    margin: 20px;
+  }
+  .bBlock {
+    display: inline-block;
+  }
+  .fontUpper {
+    font-size: 5vw;
+  }
+  .fontBottom {
+    font-size: 5vw;
+    padding: 0;
+  }
+  .icons,
+  .icons_ {
+    font-size: 8vw;
+  }
+}

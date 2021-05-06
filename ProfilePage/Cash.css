@@ -1,0 +1,117 @@
+.container {
+  background: lightgray;
+  width: 100vw;
+  padding: 5px;
+  overflow: scroll;
+}
+.top {
+  margin-top: 10px;
+  height: 25vh;
+  border: 1px solid white;
+  background: whitesmoke;
+}
+.bottom {
+  background: whitesmoke;
+  padding: 10px;
+}
+.coupon {
+  height: 20vh;
+  width: 57vw;
+  margin: 15px;
+  background: lightgray;
+  border: 1px solid gray;
+}
+.off {
+  width: 50px;
+  border-right: 1px solid white;
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+h3 {
+  color: darkcyan;
+  margin: 20px;
+  font-size: 30px;
+}
+.descr {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 25px;
+}
+.detailBtn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 12px 26px 12px 26px;
+  text-decoration: none;
+  margin-top: 10vh;
+}
+
+.detailBtn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.fa-inr {
+  color: black;
+}
+.para {
+  text-align: center;
+  text-justify: justify;
+  font-size: 17px;
+}
+.ccash {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0px;
+}
+@media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 5vw;
+  }
+  .para {
+    font-size: 3vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .coupon {
+    font-size: 3vw;
+    height: 25vh;
+    width: 60vw;
+  }
+  .off {
+    font-weight: bold;
+    font-size: 4vw;
+    width: 30px;
+  }
+  .descr {
+    font-size: 3vw;
+    padding: 2px;
+    margin-top: 2vh;
+  }
+  .detailBtn {
+    display: block;
+    padding: 0;
+    font-size: 4vw;
+  }
+  .top {
+    width: fit-content;
+  }
+  .container {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,53 @@
+h2 {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  text-align: left;
+  padding: 15px;
+}
+tr {
+  text-align: left;
+  margin: 50px;
+  padding: 15px;
+  font-size: 25px;
+}
+td {
+  padding: 30px;
+  padding-right: 35px;
+  font-weight: 500;
+  margin: 100px;
+}
+.container {
+  height: 70vh;
+}
+.col1 {
+  width: 30vw;
+  height: 60vh;
+  margin-left: 25px;
+}
+table {
+  border-spacing: 50px;
+}
+@media only screen and (max-width: 600px) {
+  td {
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    margin: 00px;
+  }
+  tr {
+    font-size: 15px;
+    padding: 3px;
+    margin: 25px;
+  }
+  table {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  .tdFirst {
+    text-decoration: underline;
+  }
+  .tdSecond {
+    color: darkmagenta;
+  }
+}
