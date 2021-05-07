@@ -5,8 +5,7 @@ import "./ProfilePage.css";
 import Box from "@material-ui/core/Box";
 import Overview from './Overview';
 import Orders from './Order';
-import Cash from './Cash'
-
+import Cash from './Cash';
 
 function ProfilePage(){
     const [show, showState] = useState("Overview");
@@ -74,8 +73,8 @@ function ProfilePage(){
                             </button>
                         </Box>
                         <Box textAlign="center" className="button">
-                            <button id="btn" onClick={Overview}>
-                                Overview
+                            <button id="btn" onClick={()=> showState("Address")}>
+                                Addresses
                             </button>
                         </Box>
                         <Box textAlign="center" className="button">
@@ -101,6 +100,7 @@ function ProfilePage(){
                             {show === "Overview" && <Overview/>}
                             {show === "Orders" && <Orders/>}
                             {show === "Cash" && <Cash/>}
+                            
                         </div>
                     </Col>
                   
